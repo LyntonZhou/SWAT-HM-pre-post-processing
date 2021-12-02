@@ -8,13 +8,15 @@ SWAT-HM model, preprocessing and post-processing, and input–output (I–O)
 
 Matlab GUI
 
-主配置文件：readfilecio
+主配置文件：readfilecio.m
 
 气象数据：
 readClimate
 readpcp readslr 等等
 plotClimate
 readpcp readslr 等等
+
+日转换成月，年 DailyToMonthly1.m
 
 plotRch('flowout', T=[2001,1;2009,12],rch=12)
    plotoutputrch swat 产生的
