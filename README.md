@@ -1,12 +1,21 @@
 # SWAT-HM-pre-post-processing
 SWAT-HM model, preprocessing and post-processing, and input–output (I–O)
 
-后处理功能总结(草稿)
+参考 https://chrisschuerz.github.io/SWATplusR/index.html
+
+后处理功能总结
+
+主要文件： 
+.p
+file.cio
+output.rch .sub .hru
+outhml.rch .sub .hru  
+5类气象文件
 
 只从（主要从） TxtInOut 读取信息
-观测数据
+观测数据可另设路径
 
-Matlab GUI
+Matlab GUI（不需要不做）
 
 主配置文件：readfilecio.m
 
