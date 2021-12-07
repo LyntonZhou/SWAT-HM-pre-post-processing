@@ -6,7 +6,7 @@ SWAT-HM model, preprocessing and post-processing, and input–output (I–O)
 后处理功能总结
 
 主要文件： 
-.p
+xxp.dat
 file.cio
 output.rch .sub .hru
 outhml.rch .sub .hru  
