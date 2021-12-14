@@ -1,4 +1,4 @@
-function [ monthlymeandata,monthlystddata,monthlyskewdata] = DailyToMonthly2(data,ysmd)
+function [monthlymeandata,monthlystddata,monthlyskewdata] = DailyToMonthly2(data,ysmd)
 % DailyToMonthly
 
 %% Monthly

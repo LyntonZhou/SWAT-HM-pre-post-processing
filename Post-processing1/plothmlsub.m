@@ -4,9 +4,9 @@ clear
 close all
 promdir = pwd;
 projdir = 'D:\XiangRiverProject\XiangRiver\1.Sufi2.SwatCup'; % folder of SWAT-HM project
+shapdir = 'D:\XiangRiverProject\XiangRiver\1\Watershed\Shapes';
 outdir = 'D:\XiangRiverProject\XiangRiver\1\Outputs';
 indir = 'D:\XiangRiverProject\XiangRiver\1\Inputs';
-shapdir ='D:\XiangRiverProject\XiangRiver\1\Watershed\Shapes';
 
 % read file.cio
 [iprint,nyskip,SubNo,HruNo] = readfilecio(projdir);
@@ -14,6 +14,7 @@ shapdir ='D:\XiangRiverProject\XiangRiver\1\Watershed\Shapes';
 %% rend SWAT & SWAT-HM output
 % output.sub
 outputsub = readoutputsub2(projdir, iprint);
+if iprint
 % outhml.sub
 outhmlsub = readouthmlsub(projdir, iprint);
 % output.rch
@@ -26,11 +27,14 @@ filename = [indir '\Xiang_industry_sub_monthly_Cd_TableToExcel.xls'];
 % metalpoint = readpointsource(filename,SubNo);
 metalpoint = readpointsource2(filename,SubNo);
 
+plotrchTimescale(table,'DisHM_INkg',projinfo)
+
 % subbasin output
 metalpoint = metalpoint(metalpoint.YEAR>2008,:);
 metalpoint_Year = groupsummary(metalpoint,{'YEAR'},'sum',{'Point'});
 outputsub = outputsub(outputsub.YEAR>2008 & outputsub.YEAR<2016 & outputsub.MON<13,:);
 outhmlsub = outhmlsub(outhmlsub.YEAR>2008 & outhmlsub.YEAR<2016 & outhmlsub.MON<13,:);
+
 data1 = groupsummary(outputsub,{'YEAR','SUB'},'mean',{'AREAkm2'});
 data2 = groupsummary(outputsub,{'YEAR','SUB'},'sum',{'PRECIPmm','WYLDmm','SURQmm','LATQmm','GW_Qmm','SYLDtha'});
 data3 = groupsummary(outhmlsub,{'YEAR','SUB'},'sum',{'HM_SURQkg','HM_LATkg','LabHM_EROkg','NLabHM_EROkg'});
@@ -88,7 +92,7 @@ end
 % rch dis hm
 dataall= reshape(rchdata_Year_Sub.DisCONC,SubNo,12,7);
 for ii=1:numel(years)
-    for jj=1:12
+    for jj=1:12 % ÔÂ
         data=dataall(:,jj,ii);
         figure
         xiangriv = shaperead([shapdir '\riv2.shp'], 'UseGeoCoords', true);
