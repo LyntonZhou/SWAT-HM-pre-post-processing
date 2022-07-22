@@ -2,6 +2,7 @@
 SWAT-HM model, preprocessing and post-processing, and input–output (I–O)
 
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
+参考 https://github.com/tamnva/R-SWAT
 
 后处理功能总结
 
