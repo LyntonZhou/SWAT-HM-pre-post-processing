@@ -1,7 +1,28 @@
 # SWAT-HM-pre-post-processing
 SWAT-HM model, preprocessing and post-processing, and input–output (I–O)
 
+Package overview
+
+If you would like to contribute to the code, have any suggestions, want to report errors, and have scientific collaboration, please contact me.
+
+
+6. Visualization
+6.1. watout.dat
+Data for visualization: watout.dat file and observed data
+Here is a screen shot of the result
+6.2. output.hru
+Data for visualization: TxtInOut files and hru shape file
+Here is a screen shot of the result
+6.3. output.rch
+Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
+Here is a screen shot of the result
+6.4. output.sub
+Data for visualization: Subbasin shape file can be found here, TxtInOut files
+Here is a screen shot of the result.
+
+
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
+
 参考 https://github.com/tamnva/R-SWAT
 
 后处理功能总结
