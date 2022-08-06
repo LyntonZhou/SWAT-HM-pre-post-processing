@@ -1,12 +1,19 @@
 # SWAT-HM-pre-post-processing
-SWAT-HM model, preprocessing and post-processing, and input–output (I–O)
+SWAT-HM model preprocessing and post-processing package
+
+SWAT-HM is a watershed-scale metal fate and transport model (reference)
 
 1. Package overview
-This package contains to functions:  
-1.1 watershed
+This package contains several folders to enforce preprecossing and post-preocessing functions for SWAT-HM model  
+1.1 watershed folder contains shape files (e.g., rivers, subbasin, hrus) for visulization
+1.2 code folder tonains Python script for preprocessing and post-preocessing
+1.3 data folder contains TxtInOut folder for SWAT-HM running
+1.4 docs folder contains SWAT-HM user manual
 
 2. SWAT-HM input files prepare
 files types: xxp.dat (point source files), 
+xxx.hml
+xxx.swq
 
 3. SWAT-HM outpot Visualization
 3.1. outhml.hru
@@ -19,7 +26,7 @@ Here is a screen shot of the result
 Data for visualization: Subbasin shape file can be found here, TxtInOut files
 Here is a screen shot of the result.
 
-If you would like to contribute to the code, have any suggestions, want to report errors, and have scientific collaboration, please contact me.
+If you have any suggestions, want to report errors, and have scientific collaboration, please contact me.
 
 
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
@@ -31,9 +38,6 @@ file.cio
 output.rch .sub .hru
 outhml.rch .sub .hru  
 5类气象文件
-
-只从（主要从） TxtInOut 读取信息
-观测数据可另设路径
 
 主配置文件：readfilecio.m
 
