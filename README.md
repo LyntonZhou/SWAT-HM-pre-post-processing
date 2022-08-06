@@ -17,13 +17,13 @@ xxx.swq
 
 3. SWAT-HM outpot Visualization
 3.1. outhml.hru
-Data for visualization: TxtInOut files and hru shape file
+Data for visualization: hru shape file in Data/TxtInOut files 
 Here is a screen shot of the result
 3.2. outhml.rch
 Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
 Here is a screen shot of the result
 3.3. outhml.sub
-Data for visualization: Subbasin shape file can be found here, TxtInOut files
+Data for visualization: Subbasin shape file in Data/TxtInOut files
 Here is a screen shot of the result.
 
 If you have any suggestions, want to report errors, and have scientific collaboration, please contact me.
