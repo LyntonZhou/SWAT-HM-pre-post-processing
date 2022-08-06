@@ -1,31 +1,29 @@
 # SWAT-HM-pre-post-processing
 SWAT-HM model, preprocessing and post-processing, and input–output (I–O)
 
-Package overview
+1. Package overview
+This package contains to functions:  
+1.1 watershed
+
+2. SWAT-HM input files prepare
+files types: xxp.dat (point source files), 
+
+3. SWAT-HM outpot Visualization
+3.1. outhml.hru
+Data for visualization: TxtInOut files and hru shape file
+Here is a screen shot of the result
+3.2. outhml.rch
+Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
+Here is a screen shot of the result
+3.3. outhml.sub
+Data for visualization: Subbasin shape file can be found here, TxtInOut files
+Here is a screen shot of the result.
 
 If you would like to contribute to the code, have any suggestions, want to report errors, and have scientific collaboration, please contact me.
 
 
-6. Visualization
-6.1. watout.dat
-Data for visualization: watout.dat file and observed data
-Here is a screen shot of the result
-6.2. output.hru
-Data for visualization: TxtInOut files and hru shape file
-Here is a screen shot of the result
-6.3. output.rch
-Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
-Here is a screen shot of the result
-6.4. output.sub
-Data for visualization: Subbasin shape file can be found here, TxtInOut files
-Here is a screen shot of the result.
-
-
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
-
 参考 https://github.com/tamnva/R-SWAT
-
-后处理功能总结
 
 主要文件： 
 xxp.dat
@@ -37,8 +35,6 @@ outhml.rch .sub .hru
 只从（主要从） TxtInOut 读取信息
 观测数据可另设路径
 
-Matlab GUI（不需要不做）
-
 主配置文件：readfilecio.m
 
 气象数据：
@@ -46,8 +42,6 @@ readClimate
 readpcp readslr 等等
 plotClimate
 readpcp readslr 等等
-
-日转换成月，年 DailyToMonthly1.m
 
 plotRch('flowout', T=[2001,1;2009,12],rch=12)
    plotoutputrch swat 产生的
@@ -58,4 +52,3 @@ plotSub('ero',T=[2001,1;2009,12],)
 
 plotHru('ero',T=[2001,1;2009,12],)
 
-结果：软著申请中的用户手册
