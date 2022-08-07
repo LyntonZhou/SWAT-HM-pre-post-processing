@@ -5,20 +5,22 @@ SWAT-HM is a watershed-scale metal fate and transport model (reference)
 
 1. Package overview
 This package contains several folders to enforce preprecossing and post-preocessing functions for SWAT-HM model  
-1.1 watershed folder contains shape files (e.g., rivers, subbasin, hrus) for visulization
+1.1 watershed folder contains GIS shape files (e.g., rivers, subbasin, hrus) for visulization
 1.2 code folder tonains Python script for preprocessing and post-preocessing
-1.3 data folder contains TxtInOut folder for SWAT-HM running
-1.4 docs folder contains SWAT-HM user manual
+1.3 data folder contains TxtInOut folder of SWAT-HM
+1.4 docs folder contains SWAT-HM user manual and 
 
 2. SWAT-HM input files prepare
-files types: xxp.dat (point source files), 
-xxx.hml
-xxx.swq
+files types: 
+metal.dat (metal parameters file)
+xxp.dat (point source file) 
+xxx.hml (hru level file)
+xxx.swq (river water quality file)
 
 3. SWAT-HM outpot Visualization
 3.1. outhml.hru
 Data for visualization: hru shape file in Data/TxtInOut files 
-Here is a screen shot of the result
+Here is an example of the result
 3.2. outhml.rch
 Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
 Here is a screen shot of the result
