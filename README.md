@@ -26,7 +26,7 @@ Data for visualization: file.cio in the TxtInOut folder, observed data, and outp
 Here is a screen shot of the result
 3.3. outhml.sub
 Data for visualization: Subbasin shape file in Data/TxtInOut files
-Here is a screen shot of the result.
+Here is a [screen shot](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
 
 If you have any suggestions, want to report errors, and have scientific collaboration, please contact me.
 
