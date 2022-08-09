@@ -62,9 +62,9 @@ Output Information:
                0    | IPRP: print code for output.pst file: 1= print pesticide output
 Starting Output Variable Section
 Reach output variables:
-   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 Subbasin output variables:
-   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 HRU output variables:
    1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 HRU data to be printed:
