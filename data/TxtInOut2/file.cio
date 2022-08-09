@@ -5,8 +5,8 @@ General Input/Output section (file.cio):
 
 General Information/Watershed Configuration:
 fig.fig
-              17    | NBYR : Number of years simulated
-            2000    | IYR : Beginning year of simulation
+               6    | NBYR : Number of years simulated
+            2010    | IYR : Beginning year of simulation
                1    | IDAF : Beginning julian day of simulation
              366    | IDAL : Ending julian day of simulation
 Climate:
@@ -68,7 +68,7 @@ Subbasin output variables:
 HRU output variables:
    1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 HRU data to be printed:
-   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
 ATMOSPERIC DEPOSITION
 ATMO.ATM
                0    | IPHR: print code for hourly output 0=no 1=yes (hourq.out)
