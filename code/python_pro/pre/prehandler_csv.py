@@ -6,9 +6,9 @@ import os
 pd.set_option('display.notebook_repr_html',False)
 
 
-PRO_DIR = "pro"
-INPUT_FILE_DIR = 'HeavyMetalModuleDataBase.xls'
-SUB_NUM = 2
+PRO_DIR = "../../../data/TxtInOut2"
+INPUT_FILE_DIR = 'HeavyMetalModuleDataBase2.xls'
+SUB_NUM = 133
 
 
 def write_file(filedir,filepath,lines,op_type):

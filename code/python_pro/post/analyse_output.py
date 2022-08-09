@@ -18,11 +18,11 @@ gpd.options.use_pygeos = True
 DRAW_TYPE = "map"
 
 START_DATE = "2000-01-01"
-END_DATE = "2001-01-01"
+END_DATE = "2008-01-01"
 
 # shp
-INPUT_SHP_PATH = "Shapes/subs2.shp"
-INPUT_OUTPUTDATA_PATH = "output_files/outhml.rch"
+INPUT_SHP_PATH = "../../../Watershed/subs2.shp"
+INPUT_OUTPUTDATA_PATH = "../../../data/TxtInOut2/"
 INPUT_OBS_PATH = "input_files/input_1.txt"
 
 SELECT_COL = 'SedDisHMkg/m3'

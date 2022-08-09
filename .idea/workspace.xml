@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="407648d8-ca0b-4ec5-b549-a3326ec78468" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/code/python_pro/post/analyse_output.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/python_pro/post/analyse_output.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/python_pro/pre/prehandler_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/python_pro/pre/prehandler_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000010000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000010000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000020000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000020000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000030000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000030000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000040000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000040000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000050000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000050000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000060000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000060000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000070000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000070000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000080000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000080000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000090000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000090000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000100000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000100000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000110000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000110000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000120000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000120000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000130000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000130000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000140000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000140000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000150000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000150000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000160000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000160000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000170000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000170000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000180000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000180000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000190000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000190000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000200000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000200000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000210000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000210000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000220000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000220000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000230000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000230000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000240000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000240000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000250000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000250000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000260000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000260000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000270000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000270000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000280000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000280000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000290000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000290000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000300000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000300000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000310000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000310000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000320000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000320000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000330000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000330000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000340000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000340000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000350000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000350000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000360000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000360000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000370000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000370000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000380000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000380000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000390000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000390000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000400000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000400000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000410000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000410000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000420000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000420000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000430000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000430000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000440000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000440000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000450000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000450000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000460000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000460000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000470000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000470000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000480000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000480000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000490000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000490000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000500000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000500000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000510000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000510000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000520000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000520000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000530000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000530000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000540000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000540000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000550000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000550000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000560000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000560000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000570000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000570000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000580000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000580000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000590000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000590000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000600000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000600000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000610000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000610000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000620000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000620000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000630000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000630000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000640000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000640000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000650000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000650000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000660000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000660000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000670000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000670000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000680000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000680000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000690000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000690000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000700000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000700000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000710000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000710000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000720000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000720000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000730000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000730000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000740000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000740000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000750000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000750000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000760000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000760000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000770000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000770000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000780000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000780000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000790000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000790000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000800000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000800000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000810000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000810000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000820000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000820000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000830000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000830000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000840000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000840000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000850000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000850000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000860000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000860000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000870000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000870000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000880000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000880000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000890000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000890000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000900000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000900000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000910000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000910000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000920000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000920000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000930000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000930000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000940000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000940000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000950000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000950000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000960000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000960000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000970000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000970000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000980000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000980000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/000990000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/000990000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001000000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001000000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001010000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001010000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001020000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001020000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001030000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001030000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001040000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001040000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001050000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001050000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001060000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001060000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001070000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001070000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001080000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001080000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001090000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001090000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001100000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001100000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001110000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001110000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001120000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001120000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001130000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001130000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001140000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001140000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001150000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001150000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001160000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001160000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001170000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001170000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001180000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001180000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001190000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001190000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001200000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001200000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001210000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001210000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001220000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001220000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001230000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001230000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001240000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001240000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001250000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001250000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001260000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001260000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001270000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001270000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001280000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001280000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001290000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001290000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001300000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001300000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001310000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001310000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001320000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001320000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/001330000.swq" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/001330000.swq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/100p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/100p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/101p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/101p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/102p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/102p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/103p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/103p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/104p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/104p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/105p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/105p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/106p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/106p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/107p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/107p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/108p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/108p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/109p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/109p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/10p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/10p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/110p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/110p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/111p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/111p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/112p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/112p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/113p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/113p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/114p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/114p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/115p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/115p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/116p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/116p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/117p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/117p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/118p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/118p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/119p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/119p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/11p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/11p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/120p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/120p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/121p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/121p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/122p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/122p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/123p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/123p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/124p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/124p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/125p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/125p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/126p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/126p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/127p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/127p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/128p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/128p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/129p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/129p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/12p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/12p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/130p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/130p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/131p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/131p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/132p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/132p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/13p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/13p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/14p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/14p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/15p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/15p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/16p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/16p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/17p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/17p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/18p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/18p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/19p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/19p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/1p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/1p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/20p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/20p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/21p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/21p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/22p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/22p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/23p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/23p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/24p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/24p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/25p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/25p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/26p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/26p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/27p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/27p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/28p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/28p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/29p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/29p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/2p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/2p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/30p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/30p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/31p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/31p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/32p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/32p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/33p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/33p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/34p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/34p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/35p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/35p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/36p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/36p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/37p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/37p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/38p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/38p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/39p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/39p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/3p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/3p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/40p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/40p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/41p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/41p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/42p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/42p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/43p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/43p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/44p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/44p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/45p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/45p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/46p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/46p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/47p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/47p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/48p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/48p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/49p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/49p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/4p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/4p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/50p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/50p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/51p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/51p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/52p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/52p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/53p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/53p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/54p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/54p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/55p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/55p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/56p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/56p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/57p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/57p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/58p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/58p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/59p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/59p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/5p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/5p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/60p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/60p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/61p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/61p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/62p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/62p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/63p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/63p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/64p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/64p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/65p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/65p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/66p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/66p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/67p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/67p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/68p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/68p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/69p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/69p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/6p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/6p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/70p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/70p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/71p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/71p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/72p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/72p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/73p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/73p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/74p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/74p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/75p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/75p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/76p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/76p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/77p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/77p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/78p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/78p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/79p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/79p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/7p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/7p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/80p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/80p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/81p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/81p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/82p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/82p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/83p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/83p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/84p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/84p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/85p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/85p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/86p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/86p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/87p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/87p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/88p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/88p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/89p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/89p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/8p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/8p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/90p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/90p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/91p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/91p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/92p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/92p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/93p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/93p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/94p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/94p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/95p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/95p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/96p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/96p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/97p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/97p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/98p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/98p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/99p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/99p.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/TxtInOut2/9p.dat" beforeDir="false" afterPath="$PROJECT_DIR$/data/TxtInOut2/9p.dat" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/python_pro/pre/prehandler_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/code/python_pro/post/analyse_output.py" />
+        <option value="$PROJECT_DIR$/code/python_pro/pre/prehandler_csv.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1084" />
+    <option name="height" value="805" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SWAT-HM-pre-post-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWAT-HM-pre-post-processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWAT-HM-pre-post-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWAT-HM-pre-post-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWAT-HM-pre-post-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWAT-HM-pre-post-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Pre-processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWAT-HM-pre-post-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWAT-HM-pre-post-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="python_pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWAT-HM-pre-post-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWAT-HM-pre-post-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="python_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="pre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWAT-HM-pre-post-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWAT-HM-pre-post-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="python_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="pre" type="462c0819:PsiDirectoryNode" />
+              <item name="pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="prehandler_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SWAT-HM-pre-post-processing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/python_pro/pre" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/python_pro/pre/prehandler_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.prehandler_csv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="407648d8-ca0b-4ec5-b549-a3326ec78468" name="Default Changelist" comment="" />
+      <created>1660051680316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660051680316</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1084" height="805" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.378175" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/TxtInOut2/file.cio">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/TxtInOut2/output.hru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1027">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/TxtInOut2/1p.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/python_pro/post/analyse_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/python_pro/pre/prehandler_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
