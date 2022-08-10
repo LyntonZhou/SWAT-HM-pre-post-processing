@@ -8,9 +8,9 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 1.1 watershed folder contains GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
-1.2 code folder tonains Python script for preprocessing and post-preocessing
+1.2 code folder contains Python and matlab script for preprocessing and post-preocessing
 
-1.3 data folder contains TxtInOut folder of SWAT-HM
+1.3 data folder contains TxtInOut folder of SWAT-HM and input excel file
 
 1.4 docs folder contains SWAT-HM user manual and 
 
