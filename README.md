@@ -6,38 +6,40 @@ SWAT-HM is a watershed-scale metal fate and transport model (reference)
 1. Package overview
 This package contains several folders to enforce preprecossing and post-preocessing functions for SWAT-HM model
 
-1.1 watershed folder contains GIS shape files (e.g., rivers, subbasin, hrus) for visualization
+1.1 code folder contains Python and matlab scripts for preprocessing and post-preocessing
 
-1.2 code folder contains Python and matlab script for preprocessing and post-preocessing
+1.2 data folder contains TxtInOut of SWAT-HM model, and input excel file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
-1.3 data folder contains TxtInOut folder of SWAT-HM and input excel file
+1.3 docs folder contains SWAT-HM user manual
 
-1.4 docs folder contains SWAT-HM user manual and 
+2. SWAT-HM input files prepare (preprocessing)
 
-2. SWAT-HM input files prepare
-files types: 
-metal.dat (metal parameters file)
-xxp.dat (point source file) 
-xxx.hml (hru level file)
-xxx.swq (river water quality file)
+2.1. code: [metlab] [python]
+2.2. files types: 
+  metal.dat (metal parameters file)
+  xxp.dat (point source file) 
+  xxx.hml (hru level file)
+  xxx.swq (river water quality file)
 
-3. SWAT-HM outpot Visualization
+3. SWAT-HM output Visualization  (postprocessing)
 
 3.1. outhml.hru
 code
+parameters
 Data for visualization: hru shape file in Data/TxtInOut files 
-Here is an example of the result
+Here is an [example] of the result
 
 3.2. outhml.rch
 code
+parameters
 Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
-Here is a screen shot of the result
+Here is an [example] of the result
 
 3.3. outhml.sub
 code
-parameter
+parameters
 Data for visualization: Subbasin shape file in Data/TxtInOut files
-Here is a [screen shot](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
+Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
 
 If you have any suggestions, want to report errors, and have scientific collaboration, please contact me.
 
