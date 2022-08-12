@@ -14,7 +14,8 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 2. SWAT-HM input files prepare (preprocessing)
 
-2.1. code: [metlab] [python]
+2.1. code: [metlab](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing) [python](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
+
 2.2. files types: 
   metal.dat (metal parameters file)
   xxp.dat (point source file) 
