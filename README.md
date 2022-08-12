@@ -1,7 +1,7 @@
 # SWAT-HM-pre-post-processing
 SWAT-HM model preprocessing and post-processing package
 
-SWAT-HM is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2[(https://www.sciencedirect.com/science/article/pii/S0022169420301591))
+SWAT-HM is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
 1. Package overview
 This package contains several folders to enforce preprecossing and post-preocessing functions for SWAT-HM model
