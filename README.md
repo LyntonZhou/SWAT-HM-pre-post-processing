@@ -15,10 +15,9 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 ### 2. SWAT-HM input files prepare (preprocessing)
 
-2.1. excel database
+2.1. excel database ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
 
 2.2. code: 
-
 [matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  
 [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
