@@ -63,9 +63,10 @@ Data for visualization: Subbasin shape file in Data/TxtInOut files
 
 Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
 
+## Support
+
 If you have any suggestions, want to report errors, and have scientific collaboration, please contact me (zhoulf@mail.bnu.edu.cn).
 
-Note 大小写
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
 参考 https://github.com/tamnva/R-SWAT
 
