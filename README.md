@@ -4,6 +4,7 @@ SWAT-HM model preprocessing and post-processing package
 SWAT-HM is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
 1. Package overview
+
 This package contains several folders to enforce preprecossing and post-preocessing functions for SWAT-HM model
 
 1.1 code folder contains Python and matlab scripts for preprocessing and post-preocessing
@@ -16,11 +17,12 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 2.1. code: 
 
-[metlab](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing) 
+[matlab](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing) 
 
 [python](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
 2.2. files types: 
+
   metal.dat (metal parameters file)
   
   xxp.dat (point source file) 
@@ -32,21 +34,33 @@ This package contains several folders to enforce preprecossing and post-preocess
 3. SWAT-HM output Visualization  (postprocessing)
 
 3.1. outhml.hru
+
 code
+
 parameters
+
 Data for visualization: hru shape file in Data/TxtInOut files 
+
 Here is an [example] of the result
 
 3.2. outhml.rch
+
 code
+
 parameters
+
 Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
+
 Here is an [example] of the result
 
 3.3. outhml.sub
+
 code
+
 parameters
+
 Data for visualization: Subbasin shape file in Data/TxtInOut files
+
 Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
 
 If you have any suggestions, want to report errors, and have scientific collaboration, please contact me.
