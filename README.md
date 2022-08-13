@@ -42,7 +42,7 @@ _SWAT-HM output Visualization_
 
 4.1. outhml.hru
 
-* code run_swat2012() 
+* code `run_swat2012()` 
 
 * parameters
 
