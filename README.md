@@ -1,7 +1,7 @@
-# SWAT-HM-pre-post-processing
+## SWAT-HM-pre-post-processing
 SWAT-HM model preprocessing and post-processing package
 
-SWAT-HM is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
+__SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
 ### 1. Package overview
 
@@ -15,12 +15,14 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 ### 2. SWAT-HM input files prepare (preprocessing)
 
-2.1. code: 
+2.1. excel database
+
+2.2. code: 
 
 [matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  
 [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
-2.2. files types: 
+2.3. files types: 
 
  * metal.dat (metal parameters file)
   
@@ -34,37 +36,39 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 3.1. outhml.hru
 
-code
+* code
 
-parameters
+* parameters
 
-Data for visualization: hru shape file in Data/TxtInOut files 
+* Data for visualization: hru shape file in Data/Shapes, outhml.hru file in Data/TxtInOut 
 
-Here is an [example] of the result
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result
 
 3.2. outhml.rch
 
-code
+* code
 
-parameters
+* parameters
 
-Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
+* Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
 
-Here is an [example] of the result
+* Here is an [example] of the result
 
 3.3. outhml.sub
 
-code
+* code
 
-parameters
+* parameters
 
-Data for visualization: Subbasin shape file in Data/TxtInOut files
+* Data for visualization: Subbasin shape file in Data/Shapes, and outhml.sub in Data/TxtInOut
 
-Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
 
 ### Support
 
 If you have any suggestions, want to report errors, and have scientific collaboration, please contact me (zhoulf@mail.bnu.edu.cn).
+
+
 
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
 参考 https://github.com/tamnva/R-SWAT
