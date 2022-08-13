@@ -1,7 +1,7 @@
 # SWAT-HM-pre-post-processing
 SWAT-HM model preprocessing and post-processing package
 
-SWAT-HM is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
+SWAT-HM is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT (SWAT2012) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
 ### 1. Package overview
 
@@ -11,7 +11,7 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 1.2 data folder contains TxtInOut of SWAT-HM model, and input excel file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
-1.3 docs folder contains SWAT-HM user manual
+1.3 docs folder contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
 
 ### 2. SWAT-HM input files prepare (preprocessing)
 
