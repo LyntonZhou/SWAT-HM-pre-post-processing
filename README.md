@@ -1,11 +1,11 @@
 ## SWAT-HM-pre-post-processing
-SWAT-HM model preprocessing,running and post-processing package
+_SWAT-HM model preprocessing,runing and post-processing package_
 
 __SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
 ### 1. Package overview
 
-This package contains several folders to enforce preprecossing, running and post-preocessing functions for SWAT-HM model
+_This package contains several folders to enforce preprecossing, runing and post-preocessing functions for SWAT-HM model_
 
 1.1 docs folder contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
 
@@ -15,7 +15,7 @@ This package contains several folders to enforce preprecossing, running and post
 
 ### 2. SWAT-HM preprocessing
 
-preparing input files of SWAT-HM models before running 
+_preparing input files of SWAT-HM models before runing_ 
 
 2.1. excel database ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
 
@@ -39,7 +39,7 @@ click swathm2012.exe in Data/TxtInOut
 
 ### 4. SWAT-HM postprocessing
 
-output Visualization  
+_SWAT-HM output Visualization_  
 
 4.1. outhml.hru
 
