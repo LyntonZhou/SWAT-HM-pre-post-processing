@@ -42,9 +42,9 @@ _SWAT-HM output Visualization_
 
 4.1. outhml.hru
 
-* code `run_swat2012()` 
+* code: `run_swat2012()` 
 
-* parameters
+* parameters: `run_swat2012()`
 
 * Data for visualization: hru shape file in Data/Shapes, outhml.hru file in Data/TxtInOut 
 
@@ -72,6 +72,7 @@ _SWAT-HM output Visualization_
 
 ### Contributor
 Dr. [Lingfeng Zhou](https://www.researchgate.net/profile/Lingfeng-Zhou) (CRAES, China)
+
 Dr. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal University, China)
 
 ### Support
