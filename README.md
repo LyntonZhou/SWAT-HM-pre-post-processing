@@ -9,7 +9,7 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 1.1 code folder contains Python and matlab scripts for preprocessing and post-preocessing
 
-1.2 data folder contains TxtInOut of SWAT-HM model, and input excel file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
+1.2 data folder contains TxtInOut files of SWAT-HM model, input excel file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
 1.3 docs folder contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
 
@@ -17,8 +17,7 @@ This package contains several folders to enforce preprecossing and post-preocess
 
 2.1. code: 
 
-[matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing) 
-
+[matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  
 [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
 2.2. files types: 
