@@ -73,7 +73,7 @@ _SWAT-HM output Visualization_
 
 ### Contributor
 Dr. [Lingfeng Zhou](https://www.researchgate.net/profile/Lingfeng-Zhou) (CRAES, China)
-Dr. [Lingfeng Zhou](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal University, China)
+Dr. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal University, China)
 
 ### Support
 
