@@ -51,7 +51,7 @@ def hml_hru(table_info):
         hruf = open(f"{PRO_DIR}/{hru_id}.hru","r")
         hrus = hruf.readlines()[0][6:]
 
-        hml_lines.append(f" .hml {hrus}\n")
+        hml_lines.append(f" .hml {hrus}")
         hml_lines.append("Soil Heavy Metal Data\n")
         hml_lines.append(f"{'1'.rjust(10)}    |HML_P1: Metal number [#]\n")
         hml_lines.append(f"{round(hml_data['hmfraction'][i],6).astype(str).rjust(10)}    |HML_P2: Heavy metal Nonpoint source Area Fraction [-]\n")
