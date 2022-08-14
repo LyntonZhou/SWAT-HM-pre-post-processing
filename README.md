@@ -34,7 +34,7 @@ _preparing input files of SWAT-HM models before running_
 
 ### 3. SWAT-HM running
 
-click swathm2012.exe in Data/TxtInOut
+click `swathm2012.exe` in Data/TxtInOut
 
 ### 4. SWAT-HM postprocessing
 
@@ -52,9 +52,9 @@ _SWAT-HM output Visualization_
 
 4.2. outhml.rch
 
-* code
+* code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
-* parameters
+* parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
 * Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
 
@@ -62,9 +62,9 @@ _SWAT-HM output Visualization_
 
 4.3. outhml.sub
 
-* code
+* code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
-* parameters
+* parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
 * Data for visualization: Subbasin shape file in Data/Shapes, and outhml.sub in Data/TxtInOut
 
