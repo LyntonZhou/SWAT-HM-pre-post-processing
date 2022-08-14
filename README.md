@@ -28,13 +28,15 @@ _preparing input files of SWAT-HM models before running_
   
  * xxp.dat (point source file) 
   
- * xxx.hml (hru level file)
+ * x.hml (hru level file)
   
- * xxx.swq (river water quality file)
+ * x.swq (river water quality file)
+ 
+ * x.lwq (lake water quality file)
 
 ### 3. SWAT-HM running
 
-click `swathm2012.exe` in Data/TxtInOut
+click `SWAT2012HM.exe` executable file in Data/TxtInOut
 
 ### 4. SWAT-HM postprocessing
 
@@ -77,7 +79,7 @@ Dr. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal Univer
 
 ### Support
 
-If you have any suggestions, want to report errors, and have scientific collaboration, please contact me (zhoulf@mail.bnu.edu.cn).
+If you have any suggestions, want to report errors, and have scientific collaboration, please contact me (`zhoulf@mail.bnu.edu.cn`).
 
 
 
