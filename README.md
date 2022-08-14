@@ -42,13 +42,13 @@ _SWAT-HM output Visualization_
 
 4.1. outhml.hru
 
-* code: `run_swat2012()` 
+* code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
-* parameters: `run_swat2012()`
+* parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
 * Data for visualization: hru shape file in Data/Shapes, outhml.hru file in Data/TxtInOut 
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_hru_map/2012-01.png) of the result
 
 4.2. outhml.rch
 
@@ -68,7 +68,7 @@ _SWAT-HM output Visualization_
 
 * Data for visualization: Subbasin shape file in Data/Shapes, and outhml.sub in Data/TxtInOut
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_sub_map/2012-01.png) of the result.
 
 ### Contributor
 Dr. [Lingfeng Zhou](https://www.researchgate.net/profile/Lingfeng-Zhou) (CRAES, China)
