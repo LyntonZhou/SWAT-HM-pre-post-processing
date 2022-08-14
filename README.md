@@ -1,45 +1,84 @@
-# SWAT-HM-pre-post-processing
-SWAT-HM model preprocessing and post-processing package
+## SWAT-HM-pre-post-processing
+_SWAT-HM model preprocessing,runing and post-processing package_
 
-SWAT-HM is a watershed-scale metal fate and transport model (reference)
+__SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
-1. Package overview
-This package contains several folders to enforce preprecossing and post-preocessing functions for SWAT-HM model
+### 1. Package overview
 
-1.1 watershed folder contains GIS shape files (e.g., rivers, subbasin, hrus) for visualization
+_This package contains several folders to enforce preprecossing, runing and post-preocessing functions for SWAT-HM model_
 
-1.2 code folder tonains Python script for preprocessing and post-preocessing
+1.1 docs folder contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
 
-1.3 data folder contains TxtInOut folder of SWAT-HM
+1.2 code folder contains _python_ and _matlab_ scripts for preprocessing and post-preocessing
 
-1.4 docs folder contains SWAT-HM user manual and 
+1.3 data folder contains TxtInOut files of SWAT-HM model, input excel file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
-2. SWAT-HM input files prepare
-files types: 
-metal.dat (metal parameters file)
-xxp.dat (point source file) 
-xxx.hml (hru level file)
-xxx.swq (river water quality file)
+### 2. SWAT-HM preprocessing
 
-3. SWAT-HM outpot Visualization
+_preparing input files of SWAT-HM models before runing_ 
 
-3.1. outhml.hru
-code
-Data for visualization: hru shape file in Data/TxtInOut files 
-Here is an example of the result
+2.1. excel database ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
 
-3.2. outhml.rch
-code
-Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
-Here is a screen shot of the result
+2.2. code: 
+[matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
-3.3. outhml.sub
-code
-parameter
-Data for visualization: Subbasin shape file in Data/TxtInOut files
-Here is a [screen shot](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
+2.3. files types: 
 
-If you have any suggestions, want to report errors, and have scientific collaboration, please contact me.
+ * metal.dat (metal parameters file)
+  
+ * xxp.dat (point source file) 
+  
+ * xxx.hml (hru level file)
+  
+ * xxx.swq (river water quality file)
+
+### 3. SWAT-HM runing
+
+click swathm2012.exe in Data/TxtInOut
+
+### 4. SWAT-HM postprocessing
+
+_SWAT-HM output Visualization_  
+
+4.1. outhml.hru
+
+* code: `run_swat2012()` 
+
+* parameters: `run_swat2012()`
+
+* Data for visualization: hru shape file in Data/Shapes, outhml.hru file in Data/TxtInOut 
+
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result
+
+4.2. outhml.rch
+
+* code
+
+* parameters
+
+* Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
+
+* Here is an [example] of the result
+
+4.3. outhml.sub
+
+* code
+
+* parameters
+
+* Data for visualization: Subbasin shape file in Data/Shapes, and outhml.sub in Data/TxtInOut
+
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python_pro/post/pic_output_line/1_line.png) of the result.
+
+### Contributor
+Dr. [Lingfeng Zhou](https://www.researchgate.net/profile/Lingfeng-Zhou) (CRAES, China)
+
+Dr. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal University, China)
+
+### Support
+
+If you have any suggestions, want to report errors, and have scientific collaboration, please contact me (zhoulf@mail.bnu.edu.cn).
+
 
 
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
