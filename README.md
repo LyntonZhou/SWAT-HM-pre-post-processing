@@ -17,9 +17,7 @@ _This package contains several folders to enforce preprecossing, running and pos
 
 ### 2. SWAT-HM preprocessing
 
-原始 TxtInout 
-
-_preparing 额外的 input files of SWAT-HM models before running_ 
+_Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM models before running_ 
 
 2.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
 
@@ -36,7 +34,6 @@ _preparing 额外的 input files of SWAT-HM models before running_
   
  * `x.swq` (river water quality file)
  
- * `x.lwq` (lake water quality file) 【暂时不写】
 
 ### 3. SWAT-HM running
 
@@ -52,19 +49,29 @@ _SWAT-HM output Visualization_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: hru shape file in Data/Shapes, outhml.hru file in Data/TxtInOut 
+* Data for visualization: hru shape file in Data/Shapes, and outhml.hru file in Data/TxtInOut 
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_hru_map/2012-01.png) of the result
 
-4.2. outhml.rch
+4.2. outhml.rch (line)
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: file.cio in the TxtInOut folder, observed data, and output.rch file
+* Data for visualization: observed data, and output.rch file
 
-* Here is an [example] of the result
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/postprocessing/pic_output_rch_line) of the result
+
+4.2. outhml.rch (map)
+
+* code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
+
+* parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
+
+* Data for visualization: river and basin shape files in Data/Shapes, and output.rch file in the Data/TxtInOut
+
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/postprocessing/pic_output_rch_line) of the result
 
 4.3. outhml.sub
 
