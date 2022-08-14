@@ -61,7 +61,7 @@ _SWAT-HM output Visualization_
 
 * Data for visualization: observed data, and output.rch file
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/postprocessing/pic_output_rch_line) of the result
+* Here is an [example]([https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/postprocessing/pic_output_rch_line](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_rch_line/1_line.png) of the result
 
 4.2. outhml.rch (map)
 
