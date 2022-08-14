@@ -13,7 +13,9 @@ _This package contains several folders to enforce preprecossing, running and pos
 
 1.3 `data folder` contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
-运行流程 pre-run-post
+### 2. Procedure
+
+preprocessing[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/edit/main/README.md#2. SWAT-HM preprocessing)running[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/edit/main/README.md#3. SWAT-HM running)postprocessing
 
 ### 2. SWAT-HM preprocessing
 
@@ -41,7 +43,7 @@ click `SWAT2012HM.exe` executable file in Data/TxtInOut
 
 ### 4. SWAT-HM postprocessing
 
-_SWAT-HM output Visualization_  
+_SWAT-HM output Visualization (4 types)_  
 
 4.1. outhml.hru
 
