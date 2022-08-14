@@ -1,5 +1,5 @@
 ## SWAT-HM-pre-post-processing
-_SWAT-HM model preprocessing,running, and post-processing package_
+_SWAT-HM model preprocessing, running, and post-processing package_
 
 __SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
@@ -13,9 +13,13 @@ _This package contains several folders to enforce preprecossing, running and pos
 
 1.3 `data folder` contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
+运行流程 pre-run-post
+
 ### 2. SWAT-HM preprocessing
 
-_preparing input files of SWAT-HM models before running_ 
+原始 TxtInout 
+
+_preparing 额外的 input files of SWAT-HM models before running_ 
 
 2.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
 
@@ -32,7 +36,7 @@ _preparing input files of SWAT-HM models before running_
   
  * `x.swq` (river water quality file)
  
- * `x.lwq` (lake water quality file)
+ * `x.lwq` (lake water quality file) 【暂时不写】
 
 ### 3. SWAT-HM running
 
