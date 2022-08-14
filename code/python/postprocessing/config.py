@@ -19,7 +19,7 @@ sub 示例
 #
 # SELECT_COL = 'HM_ATMOkg'
 #
-# OUTPUT_DIR = "pic_output_sub_map"
+# OUTPUT_DIR = "../../../data/Visualization/pic_output_sub_map"
 #
 # RCH = 1
 
@@ -42,7 +42,7 @@ hru示例
 #
 # SELECT_COL = 'DisHMkg/ha'
 #
-# OUTPUT_DIR = "pic_output_hru_map"
+# OUTPUT_DIR = "../../../data/Visualization/pic_output_hru_map"
 #
 # RCH = 1
 #
@@ -65,7 +65,7 @@ rch 示例
 #
 # SELECT_COL = 'DisHM_INkg'
 #
-# OUTPUT_DIR = "pic_output_rch_line"
+# OUTPUT_DIR = "../../../data/Visualization/pic_output_rch_line"
 #
 # RCH = 1
 
@@ -98,7 +98,7 @@ INPUT_OBS_PATH = "input_files/input_1.txt"
 SELECT_COL = 'DisHM_INkg'
 
 # 输出图片目录 需要提前创建好
-OUTPUT_DIR = "pic_output_rch_map"
+OUTPUT_DIR = "../../../data/Visualization/pic_output_rch_map"
 
 # rch折线需要输入做图的rch编号
 RCH = 1
