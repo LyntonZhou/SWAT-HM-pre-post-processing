@@ -6,9 +6,22 @@ import os
 pd.set_option('display.notebook_repr_html',False)
 
 
+def get_base_num():
+    sub_num = 0
+    hru_num = 0
+    file_list = os.listdir(PRO_DIR)
+    for file_name in file_list:
+        if file_name.startswith("0"):
+            if file_name.endswith(".sub"):
+                sub_num += 1
+            if file_name.endswith(".hru"):
+                hru_num += 1
+    return sub_num, hru_num
+
+
 PRO_DIR = "../../../data/TxtInOut2"
-INPUT_FILE_DIR = 'HeavyMetalModuleDataBase2.xls'
-SUB_NUM = 133
+INPUT_FILE_DIR = '../../../data/HeavyMetalModuleDataBase2.xls'
+SUB_NUM, HRU_NUM = get_base_num()
 
 
 def write_file(filedir,filepath,lines,op_type):
