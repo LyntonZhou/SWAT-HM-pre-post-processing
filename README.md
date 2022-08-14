@@ -89,18 +89,3 @@ If you have any suggestions, want to report errors, and have scientific collabor
 
 参考 https://chrisschuerz.github.io/SWATplusR/index.html
 参考 https://github.com/tamnva/R-SWAT
-
-主要文件： 
-xxp.dat
-file.cio
-output.rch .sub .hru
-outhml.rch .sub .hru  
-5类气象文件
-
-主配置文件：readfilecio.m
-
-气象数据：
-readClimate
-readpcp readslr 等等
-plotClimate
-readpcp readslr 等等
