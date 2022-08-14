@@ -1,5 +1,5 @@
 ## SWAT-HM-pre-post-processing
-_SWAT-HM model preprocessing,running and post-processing package_
+_SWAT-HM model preprocessing,running, and post-processing package_
 
 __SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
@@ -7,11 +7,11 @@ __SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a
 
 _This package contains several folders to enforce preprecossing, running and post-preocessing functions for SWAT-HM model_
 
-1.1 docs folder contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
+1.1 `docs folder` contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
 
-1.2 code folder contains _python_ and _matlab_ scripts for preprocessing and post-preocessing
+1.2 `code folder` contains _python_ and _matlab_ scripts for preprocessing and post-preocessing
 
-1.3 data folder contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
+1.3 `data folder` contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
 ### 2. SWAT-HM preprocessing
 
@@ -24,15 +24,15 @@ _preparing input files of SWAT-HM models before running_
 
 2.3. files types: 
 
- * metal.dat (metal parameters file)
+ * `metal.dat` (metal parameters file)
   
- * xxp.dat (point source file) 
+ * `xp.dat` (point source file) 
   
- * x.hml (hru level file)
+ * `x.hml` (hru level file)
   
- * x.swq (river water quality file)
+ * `x.swq` (river water quality file)
  
- * x.lwq (lake water quality file)
+ * `x.lwq` (lake water quality file)
 
 ### 3. SWAT-HM running
 
