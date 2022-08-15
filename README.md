@@ -15,7 +15,7 @@ _This package contains several folders to enforce preprecossing, running and pos
 
 ### 2. Procedure
 
-preprocessing[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###3. SWAT-HM preprocessing)running[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###4. SWAT-HM running)postprocessing
+preprocessing [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###3.SWAT-HM preprocessing) running [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###4.SWAT-HM running) postprocessing
 
 ### 3. SWAT-HM preprocessing
 
@@ -83,7 +83,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * Data for visualization: Subbasin shape file in Data/Shapes, and outhml.sub in Data/TxtInOut
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_sub_map/2012-01.png)of the result.
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_sub_map/2012-01.png) of the result.
 
 ### Contributor
 Dr. [Lingfeng Zhou](https://www.researchgate.net/profile/Lingfeng-Zhou) (CRAES, China)
