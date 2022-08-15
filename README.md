@@ -26,7 +26,7 @@ _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM
 3.2. code: 
 [matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
-3.3. files types: 
+3.3. Input files types: 
 
  * `metal.dat` (metal parameters file)
   
