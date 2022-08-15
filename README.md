@@ -15,18 +15,18 @@ _This package contains several folders to enforce preprecossing, running and pos
 
 ### 2. Procedure
 
-preprocessing[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/edit/main/README.md#2. SWAT-HM preprocessing)running[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/edit/main/README.md#3. SWAT-HM running)postprocessing
+preprocessing[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/edit/main/README.md###3. SWAT-HM preprocessing)running[>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/edit/main/README.md###4. SWAT-HM running)postprocessing
 
-### 2. SWAT-HM preprocessing
+### 3. SWAT-HM preprocessing
 
 _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM models before running_ 
 
-2.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
+3.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
 
-2.2. code: 
+3.2. code: 
 [matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
-2.3. files types: 
+3.3. files types: 
 
  * `metal.dat` (metal parameters file)
   
@@ -37,15 +37,15 @@ _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM
  * `x.swq` (river water quality file)
  
 
-### 3. SWAT-HM running
+### 4. SWAT-HM running
 
 click `SWAT2012HM.exe` executable file in Data/TxtInOut
 
-### 4. SWAT-HM postprocessing
+### 5. SWAT-HM postprocessing
 
 _SWAT-HM output Visualization (4 types)_  
 
-4.1. outhml.hru
+5.1. outhml.hru
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
@@ -55,7 +55,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_hru_map/2012-01.png) of the result
 
-4.2. outhml.rch (line)
+5.2. outhml.rch (line)
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
@@ -65,7 +65,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_rch_line/1_line.png) of the result
 
-4.2. outhml.rch (map)
+5.3. outhml.rch (map)
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
@@ -75,7 +75,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/postprocessing/pic_output_rch_line) of the result
 
-4.3. outhml.sub
+5.4. outhml.sub
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
