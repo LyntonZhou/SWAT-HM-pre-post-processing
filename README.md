@@ -43,6 +43,8 @@ _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM
 
 click `SWAT2012HM.exe` executable file in Data/TxtInOut
 
+![image](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/docs/swat-hm-running.png)
+
 ### 5. SWAT-HM postprocessing
 
 _SWAT-HM output Visualization (4 types)_  
