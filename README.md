@@ -1,30 +1,34 @@
 ## SWAT-HM-pre-post-processing
-_SWAT-HM model preprocessing, running, and post-processing package_
+_SWAT-HM model preprocessing, running, and postprocessing package_
 
-__SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
+__SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model. SWAT-HM operates at a daily time step, tracking the stores and fluxes of dissolved and particulate metals in both the land and in-stream phases of a catchment. ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
+
+![image](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs/swat-hm-image.jpg)
 
 ### 1. Package overview
 
-_This package contains several folders to enforce preprecossing, running and post-preocessing functions for SWAT-HM model_
+_This package contains several folders to enforce preprecossing, running and postpreocessing functions for SWAT-HM model_
 
-1.1 `docs folder` contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
+1.1. `docs folder` contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
 
-1.2 `code folder` contains _python_ and _matlab_ scripts for preprocessing and post-preocessing
+1.2. `code folder` contains _python_ and _matlab_ scripts for preprocessing and postpreocessing
 
-1.3 `data folder` contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
+1.3. `data folder` contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
 
-运行流程 pre-run-post
+### 2. Procedure
 
-### 2. SWAT-HM preprocessing
+preprocessing [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###3.-SWAT-HM-preprocessing) running [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###4.-SWAT-HM-running) postprocessing
 
-_Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM models before running_ 
+### 3. SWAT-HM preprocessing
 
-2.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
+_Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM model before running_ 
 
-2.2. code: 
+3.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
+
+3.2. code: 
 [matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
 
-2.3. files types: 
+3.3. Input files types: 
 
  * `metal.dat` (metal parameters file)
   
@@ -35,15 +39,15 @@ _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM
  * `x.swq` (river water quality file)
  
 
-### 3. SWAT-HM running
+### 4. SWAT-HM running
 
 click `SWAT2012HM.exe` executable file in Data/TxtInOut
 
-### 4. SWAT-HM postprocessing
+### 5. SWAT-HM postprocessing
 
-_SWAT-HM output Visualization_  
+_SWAT-HM output Visualization (4 types)_  
 
-4.1. outhml.hru
+5.1. outhml.hru
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
@@ -51,9 +55,9 @@ _SWAT-HM output Visualization_
 
 * Data for visualization: hru shape file in Data/Shapes, and outhml.hru file in Data/TxtInOut 
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_hru_map/2012-01.png) of the result
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_hru_map/2012-01.png) of the result
 
-4.2. outhml.rch (line)
+5.2. outhml.rch (line)
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
@@ -61,9 +65,9 @@ _SWAT-HM output Visualization_
 
 * Data for visualization: observed data, and output.rch file
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_rch_line/1_line.png) of the result
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_rch_line/1_line.png) of the result
 
-4.2. outhml.rch (map)
+5.3. outhml.rch (map)
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
@@ -71,9 +75,9 @@ _SWAT-HM output Visualization_
 
 * Data for visualization: river and basin shape files in Data/Shapes, and output.rch file in the Data/TxtInOut
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/postprocessing/pic_output_rch_line) of the result
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_rch_map/2012-01.png) of the result
 
-4.3. outhml.sub
+5.4. outhml.sub
 
 * code: [`analyse_output.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/analyse_output.py)
 
@@ -91,8 +95,3 @@ Dr. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal Univer
 ### Support
 
 If you have any suggestions, want to report errors, and have scientific collaboration, please contact me (`zhoulf@mail.bnu.edu.cn`).
-
-
-
-参考 https://chrisschuerz.github.io/SWATplusR/index.html
-参考 https://github.com/tamnva/R-SWAT
