@@ -7,7 +7,7 @@ __SWAT-HM__ is a watershed-scale metal fate and transport model, which coupled a
 
 ### 1. Package overview
 
-_This package contains several folders to enforce preprecossing, running and postpreocessing functions for SWAT-HM model_
+_This package contains several folders to enforce preprecossing, running and postprocessing functions for SWAT-HM model_
 
 1.1. `docs folder` contains [SWAT-HM user manual](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/docs)
 
@@ -42,6 +42,8 @@ _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM
 ### 4. SWAT-HM running
 
 click `SWAT2012HM.exe` executable file in Data/TxtInOut
+
+![image](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/docs/swat-hm-running.png)
 
 ### 5. SWAT-HM postprocessing
 
