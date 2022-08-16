@@ -15,7 +15,7 @@ _This package contains several folders to enforce preprecossing, running and pos
 
 ### 2. Procedure
 
-preprocessing [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###3.SWAT-HM-preprocessing) running [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###4.SWAT-HM-running) postprocessing
+preprocessing [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###3.-SWAT-HM-preprocessing) running [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/README.md###4.-SWAT-HM-running) postprocessing
 
 ### 3. SWAT-HM preprocessing
 
