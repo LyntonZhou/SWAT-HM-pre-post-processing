@@ -37,7 +37,6 @@ _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM
  * `x.hml` (hru level file)
   
  * `x.swq` (river water quality file)
- 
 
 ### 4. SWAT-HM running
 
@@ -90,6 +89,7 @@ _SWAT-HM output Visualization (4 types)_
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_sub_map/2012-01.png) of the result.
 
 ### Contributor
+
 Dr. [Lingfeng Zhou](https://www.researchgate.net/profile/Lingfeng-Zhou) (CRAES, China)
 
 Dr. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal University, China)
