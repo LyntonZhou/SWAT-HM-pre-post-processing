@@ -86,7 +86,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * Data for visualization: Subbasin shape file in Data/Shapes, and outhml.sub in Data/TxtInOut
 
-* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/pic_output_sub_map/2012-01.png) of the result.
+* Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_sub_map/2012-01.png) of the result.
 
 ### Contributor
 
