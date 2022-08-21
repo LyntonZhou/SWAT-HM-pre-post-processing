@@ -54,7 +54,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: hru shape file in Data/Shapes, and outhml.hru file in Data/TxtInOut 
+* Data for visualization: hru shape file in Data/Shapes, and `outhml.hru` file in Data/TxtInOut 
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_hru_map/2012-01.png) of the result
 
@@ -64,7 +64,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: observed data, and output.rch file
+* Data for visualization: observed data, and `outhml.rch` file
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_rch_line/1_line.png) of the result
 
@@ -74,7 +74,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: river and basin shape files in Data/Shapes, and output.rch file in the Data/TxtInOut
+* Data for visualization: river and basin shape files in Data/Shapes, and `outhml.rch` file in the Data/TxtInOut
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_rch_map/2012-01.png) of the result
 
@@ -84,7 +84,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: Subbasin shape file in Data/Shapes, and outhml.sub in Data/TxtInOut
+* Data for visualization: Subbasin shape file in Data/Shapes, and `outhml.sub` in Data/TxtInOut
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_sub_map/2012-01.png) of the result.
 
