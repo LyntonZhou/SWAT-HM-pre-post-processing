@@ -1,7 +1,7 @@
 ## SWAT-HM-pre-post-processing
 _SWAT-HM model preprocessing, running, and postprocessing package_
 
-__SWAT-HM__ (Soil and Water Assessment Tool—Heavy Metal) is a watershed-scale metal fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model. SWAT-HM operates at a daily time step, tracking the stores and fluxes of dissolved and particulate metals in both the land and in-stream phases of a catchment. ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
+__SWAT-HM__ (Soil and Water Assessment Tool—Heavy Metal) is a watershed-scale, process-based, semi-distributed, continuous-time __heavy metal__ fate and transport model, which coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model. SWAT-HM operates at a daily time step, tracking the stores and fluxes of dissolved and particulate metals in both the land and in-stream phases of a catchment. ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
 ![image](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/docs/swat-hm-image.png)
 
@@ -54,7 +54,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: hru shape file in Data/Shapes, and `outhml.hru` file in Data/TxtInOut 
+* Data for visualization: hru `hru1.shp` shape file in Data/Shapes, and `outhml.hru` file in Data/TxtInOut 
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_hru_map/2012-01.png) of the result
 
@@ -74,7 +74,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: river and basin shape files in Data/Shapes, and `outhml.rch` file in the Data/TxtInOut
+* Data for visualization: river `riv1.shp` and basin `basin1.shp` shape files in Data/Shapes, and `outhml.rch` file in the Data/TxtInOut
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_rch_map/2012-01.png) of the result
 
@@ -84,7 +84,7 @@ _SWAT-HM output Visualization (4 types)_
 
 * parameters: [`config.py`](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/code/python/postprocessing/config.py)
 
-* Data for visualization: Subbasin shape file in Data/Shapes, and `outhml.sub` in Data/TxtInOut
+* Data for visualization: Subbasin shape `subs1.shp` file in Data/Shapes, and `outhml.sub` in Data/TxtInOut
 
 * Here is an [example](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/data/Visualization/pic_output_sub_map/2012-01.png) of the result.
 
@@ -92,7 +92,7 @@ _SWAT-HM output Visualization (4 types)_
 
 Dr. [Lingfeng Zhou](https://www.researchgate.net/profile/Lingfeng-Zhou) (CRAES, China)
 
-Dr. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal University, China)
+Prof. [Yaobin Meng](https://nsem.bnu.edu.cn/fjs/120716.htm) (Beijing Normal University, China)
 
 ### Support
 
