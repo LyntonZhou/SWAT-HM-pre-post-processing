@@ -55,11 +55,11 @@ for ii=1:numel(icc)
             fprintf(hmlfileid,'%10.3f    |HML_P5: Non-labile metal in 1st layer soil [mg/kg]\n',HmlHru(jj,4));
             fprintf(hmlfileid,'%10.3f    |HML_P6: Enrichment ratio of heavy metal [-]\n',HmlHru(jj,5));
             %fprintf(hmlfileid,'%10.3f    |HML_P7: Soil pH [-]\n',HmlHru(jj,7));
-            fprintf(hmlfileid,'%10.3f    |HML_P8: Total metal input from agricultural use [g/ha/yr]\n',HmlHru(jj,6));
+            fprintf(hmlfileid,'%10.3f    |HML_P7: Total metal input from agricultural use [g/ha/yr]\n',HmlHru(jj,6));
             fprintf(hmlfileid,'%10.3f    |HML_P9: Fraction of labile metal in fertilizers or animal manure [-]\n',HmlHru(jj,7));
-            fprintf(hmlfileid,'%10.3f    |HML_P10: Total metal input from atmospheric deposition [g/ha/yr]\n',HmlHru(jj,8));
-            fprintf(hmlfileid,'%10.3f    |HML_P11: Fraction of labile metal in atmospheric deposition [-]\n',HmlHru(jj,9));
-            fprintf(hmlfileid,'%10.3f    |HML_P12: Dissolved metal in groundwater [ug/L]\n',HmlHru(jj,10));
+            fprintf(hmlfileid,'%10.3f    |HML_P9: Total metal input from atmospheric deposition [g/ha/yr]\n',HmlHru(jj,8));
+            fprintf(hmlfileid,'%10.3f    |HML_P10: Fraction of labile metal in atmospheric deposition [-]\n',HmlHru(jj,9));
+            fprintf(hmlfileid,'%10.3f    |HML_P11: Dissolved metal in groundwater [ug/L]\n',HmlHru(jj,10));
             fclose(hmlfileid);
         end
         disp([num2str(jj) ' .hml files are modified'])
