@@ -3,7 +3,9 @@ _SWAT-HM model preprocessing, running, and postprocessing package_
 
 __SWAT-HM__ (Soil and Water Assessment Tool—Heavy Metal) is a watershed-scale, process-based, semi-distributed, continuous-time __heavy metal__ fate and transport model. SWAT-HM coupled a heavy metal module with the well-established SWAT ([SWAT2012](https://swat.tamu.edu/software/)) model. SWAT-HM operates at a daily time step, tracking the stores and fluxes of dissolved and particulate metals in both the land and in-stream phases of a catchment. ([ref 1](https://www.sciencedirect.com/science/article/pii/S0048969717325305) and [ref 2](https://www.sciencedirect.com/science/article/pii/S0022169420301591))
 
-![image](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/docs/swat-hm-image.png)
+![image](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/docs/swat-hm-image1.png)
+
+![image](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blob/main/docs/swat-hm-image2.png)
 
 ### 1. Package overview
 
