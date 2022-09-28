@@ -10,11 +10,12 @@
 clc
 clear
 promdir = pwd;
-xlsdir = [promdir '\HeavyMetalModuleDataBase_XiangRiver_XRB210528V2.xlsx']; % database excel file directory
-% projdir = 'D:\XiangRiverProject\XiangRiver\XRB210528V2.Sufi2.SwatCup'; % folder of SWAT-HM project
-projdir = 'D:\XiangRiverProject\XiangRiver\XRB210528V2_1.Sufi2.SwatCup'; % folder of SWAT-HM project
-[iprint,nyskip,SubNo,HruNo] = readfilecio(projdir);
-icc=[1,0,1,0]; % icc: control code for for HM inputs files, 1=yes, 0=no
+% xlsdir = [promdir '\HeavyMetalModuleDataBase_XiangRiver_XRB210528V2.xlsx']; % database excel file directory
+xlsdir = 'D:\SWAT-HM\SWAT-HM-pre-post-processing\data\HeavyMetalModuleDataBase.xls'; % database excel file directory
+projdir = 'D:\SWAT-HM\SWAT-HM-pre-post-processing\data\TxtInOut'; % folder of SWAT-HM project
+% [iprint,nyskip,SubNo,HruNo] = readfilecio(projdir);
+SubNo = 133;
+icc=[1,1,1,0]; % icc: control code for for HM inputs files, 1=yes, 0=no
 PointSourceNo=[1:SubNo]; % if icc(4)=1, then PointSourceNo is the No of point source files
 
 tic
@@ -78,14 +79,14 @@ for ii=1:numel(icc)
                 headline=fgetl(swqfileid);
             end
             fseek(swqfileid,0,'cof');
-            fprintf(swqfileid,'Heavy Metal Parameters: \n');
-            fprintf(swqfileid,'     %10.4f     | SWQ_HML_STL: Settling velocity for Heavy Metal [m/d]\n',HmlSwq(jj,2));
-            fprintf(swqfileid,'     %10.4f     | SWQ_HML_RSP: Resuspension velocity for Heavy Metal [m/d]\n',HmlSwq(jj,3));
-            fprintf(swqfileid,'     %10.4f     | SWQ_HML_MIX: Mixing velocity for Heavy Metal [m/d]\n',HmlSwq(jj,4));
-            fprintf(swqfileid,'     %10.5f     | SWQ_HML_BRY: Burial velocity for Heavy Metal [m/d]\n',HmlSwq(jj,5));
-            fprintf(swqfileid,'     %10.4f     | SWQ_HML_LabileCONC: Initial HM concentration in reach bed sediment [kg/m3]\n',HmlSwq(jj,6));
-            fprintf(swqfileid,'     %10.4f     | SWQ_HML_NonLabileCONC: Initial HM concentration in reach bed sediment [kg/m3]\n',HmlSwq(jj,7));
-            fprintf(swqfileid,'     %10.4f     | SWQ_HML_ACT: Depth of active sediment layer for heavy metal [m]\n',HmlSwq(jj,8));
+            fprintf(swqfileid,'Heavy Metal Parameters: \r\n');
+            fprintf(swqfileid,'     %10.4f     | SWQ_HML_STL: Settling velocity for Heavy Metal [m/d]\r\n',HmlSwq(jj,2));
+            fprintf(swqfileid,'     %10.4f     | SWQ_HML_RSP: Resuspension velocity for Heavy Metal [m/d]\r\n',HmlSwq(jj,3));
+            fprintf(swqfileid,'     %10.4f     | SWQ_HML_MIX: Mixing velocity for Heavy Metal [m/d]\r\n',HmlSwq(jj,4));
+            fprintf(swqfileid,'     %10.5f     | SWQ_HML_BRY: Burial velocity for Heavy Metal [m/d]\r\n',HmlSwq(jj,5));
+            fprintf(swqfileid,'     %10.4f     | SWQ_HML_LabileCONC: Initial HM concentration in reach bed sediment [kg/m3]\r\n',HmlSwq(jj,6));
+            fprintf(swqfileid,'     %10.4f     | SWQ_HML_NonLabileCONC: Initial HM concentration in reach bed sediment [kg/m3]\r\n',HmlSwq(jj,7));
+            fprintf(swqfileid,'     %10.4f     | SWQ_HML_ACT: Depth of active sediment layer for heavy metal [m]\r\n',HmlSwq(jj,8));
             fclose(swqfileid);
         end
         disp([num2str(jj) ' .swq files are modified'])
