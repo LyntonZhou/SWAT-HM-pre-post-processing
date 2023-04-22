@@ -11,7 +11,7 @@ clc
 clear
 promdir = pwd;
 % xlsdir = [promdir '\HeavyMetalModuleDataBase_XiangRiver_XRB210528V2.xlsx']; % database excel file directory
-xlsdir = 'D:\SWAT-HM\SWAT-HM-pre-post-processing\data\HeavyMetalModuleDataBase.xls'; % database excel file directory
+xlsdir = 'D:\SWAT-HM\SWAT-HM-pre-post-processing\data\HeavyMetalModuleDataBase.xlsx'; % database excel file directory
 projdir = 'D:\SWAT-HM\SWAT-HM-pre-post-processing\data\TxtInOut'; % folder of SWAT-HM project
 % [iprint,nyskip,SubNo,HruNo] = readfilecio(projdir);
 SubNo = 133;

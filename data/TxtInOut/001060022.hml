@@ -1,4 +1,4 @@
- .hml file Watershed HRU:2413 Subbasin:106 HRU:22 Luse:WATR Soil: ATc-11604-1 Slope: 0-10 2020/9/9 0:00:00 ArcSWAT 2012.10_2.19
+ .hml  .hru 
 Soil Heavy Metal Data
          1    |HML_P1: Metal number [#]
   0.000000    |HML_P2: Heavy metal Nonpoint source Area Fraction [-]
@@ -7,7 +7,7 @@ Soil Heavy Metal Data
      0.000    |HML_P5: Non-labile metal in 1st layer soil [mg/kg]
      1.500    |HML_P6: Enrichment ratio of heavy metal [-]
      0.000    |HML_P7: Total metal input from agricultural use [g/ha/yr]
-     0.000    |HML_P9: Fraction of labile metal in fertilizers or animal manure [-]
+     0.000    |HML_P8: Fraction of labile metal in fertilizers or animal manure [-]
      6.500    |HML_P9: Total metal input from atmospheric deposition [g/ha/yr]
      1.000    |HML_P10: Fraction of labile metal in atmospheric deposition [-]
      0.010    |HML_P11: Dissolved metal in groundwater [ug/L]
