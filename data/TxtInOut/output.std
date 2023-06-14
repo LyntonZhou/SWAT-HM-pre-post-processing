@@ -17,3 +17,14 @@ Annual Summary for Watershed in year    1 of simulation
 UNIT                                    PERCO    TILE                           WATER     SED     NO3     NO3     NO3     NO3        N       P       P
 TIME     PREC    SURQ    LATQ     GWQ    LATE       Q     SW       ET     PET   YIELD   YIELD    SURQ    LATQ    PERC    CROP  ORGANIC SOLUBLE ORGANIC TILENO3
          (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)   ------------------(kg nutrient/ha)-------------------- (kg/ha)
+1
+    SWAT Dec 11 2014    VER 2012/Rev 635                                            
+
+    General Input/Output section (file.cio):                                        
+    2020/9/9 0:00:00 ARCGIS-SWAT interface AV                                       
+                                                                                    
+Annual Summary for Watershed in year    2 of simulation
+
+UNIT                                    PERCO    TILE                           WATER     SED     NO3     NO3     NO3     NO3        N       P       P
+TIME     PREC    SURQ    LATQ     GWQ    LATE       Q     SW       ET     PET   YIELD   YIELD    SURQ    LATQ    PERC    CROP  ORGANIC SOLUBLE ORGANIC TILENO3
+         (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)   ------------------(kg nutrient/ha)-------------------- (kg/ha)
