@@ -15,7 +15,7 @@ _This package contains several folders to enforce preprecossing, running and pos
 
 1.2. `code folder` contains _python_ and _matlab_ scripts for preprocessing and postprocessing
 
-1.3. `data folder` contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization
+1.3. `data folder` contains TxtInOut files of SWAT-HM model, input excel database file for preprecessing, and GIS shape files (e.g., rivers, subbasin, hrus) for visualization, take Cd as an example
 
 ### 2. Procedure
 
@@ -25,7 +25,7 @@ preprocessing [>>](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/blo
 
 _Copy original TxtInout of SWAT model, then prepare extra input files of SWAT-HM model before running_ 
 
-3.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data))
+3.1. excel database file ([HeavyMetalModuleDataBase.xls](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/data)), take Cd as an example
 
 3.2. code: 
 [matlab version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/matlab/preprocessing);  [python version](https://github.com/LyntonZhou/SWAT-HM-pre-post-processing/tree/main/code/python/preprocessing)
